@@ -15,25 +15,28 @@
 
 #box2 {
     background-color: green;
+    transition: height 2s;
 }
 
-#box2:hoover {
+#box2:hover {
     height: 300px;
 }
 
 #box3 {
     background-color: blue;
-}
+    transition: width 2s, height 2s;
+   }
 
-#box3:hoover {
+#box3:hover {
     width: 300px;
     height: 300px;
 }
 
 #colors {
     background-color: yellow;
+    transition: background-color 3s ease-in 2s;
 }
 
-#colors:hoover {
+#colors:hover {
     background-color: deeppink;
 }
