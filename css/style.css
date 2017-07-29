@@ -7,3 +7,16 @@
     content: "po elemencie";
     color: pink;
 }
+
+#p3::first-letter {
+    color: green;
+    text-transform: uppercase
+}
+
+#p4::first-line {
+    color: yellow;
+}
+
+p::selection {
+    background-color: cyan;
+}
