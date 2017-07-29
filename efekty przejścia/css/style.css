@@ -6,6 +6,7 @@
 
 #box1 {
     background-color: red;
+    transition: width 2s;
 }
 
 #box1:hover {
