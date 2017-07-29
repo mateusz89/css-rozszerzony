@@ -1,0 +1,60 @@
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: deepskyblue;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: fuchsia;
+}
+
+a:focus {
+    color: firebrick;
+}
+
+#p1 {
+    color: blue;
+}
+
+#p1:target {
+    color: green;
+}
+
+p:lang(pl) {
+    font-style: italic;
+    color: darkcyan;
+}
+
+div.klient:first-child {
+    color: chartreuse;
+}
+
+div.klient:last-child {
+    color: skyblue;
+}
+
+div.klient:only-child {
+    color: red;
+}
+
+.klient:nth-child(even) {
+    background-color: beige;
+}
+
+.klient:nth-child(odd) {
+    background-color: lightpink;
+}
+
+.klient:nth-child(5n+4) {
+    background-color: olivedrab;
+}
