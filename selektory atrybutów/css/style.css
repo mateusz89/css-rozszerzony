@@ -13,3 +13,11 @@ div[suma="1500"] {
 div[biznesowy~="tak"] {
     color: violet;
 }
+
+div[biznesowy*="moze"] {
+    color: crimson;
+}
+
+div[suma$="60"] {
+    color: goldenrod;
+}
