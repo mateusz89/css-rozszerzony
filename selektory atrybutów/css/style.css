@@ -1,3 +1,15 @@
 .klient:nth-child(even) {
     background-color: beige;
 }
+
+div [suma] {
+    background-color: aqua;
+}
+
+div[suma="1500"] {
+    background-color: red;
+}
+
+div[biznesowy~="tak"] {
+    color: violet;
+}
