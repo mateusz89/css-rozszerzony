@@ -1,0 +1,3 @@
+.klient:nth-child(even) {
+    background-color: beige;
+}
