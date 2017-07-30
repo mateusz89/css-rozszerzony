@@ -1,0 +1,7 @@
+#tlo-obrazek {
+    background-color: beige;
+    background-image: url("../img/jablko.jpg");
+    background-repeat: repeat-x;
+    background-position: top center;
+    background-attachment: fixed;
+}
