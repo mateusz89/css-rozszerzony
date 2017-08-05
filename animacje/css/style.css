@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+
+img {
+    height: 300px;
+    margin-bottom: 300px;
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    position: relative;
+    margin-left: 500px;
+    top: 180px;
+}
+
+/* Obrót */
+/*
+.rotate img {
+    transform: rotate(-20deg);
+}
+
+/* Przesunięcie */
+/*
+.transform img {
+    transform: translate(200px, 300px);
+    
+}
+
+/* Skalowanie */
+/*
+.scale img:hover {
+transform: scale(2);
+    
+}
+
+/* Animacje */
+
+.animation img {
+    animation-name: resize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes resize {
+    0%, 100% {
+        height: 300px;
+    }
+    
+    50% {
+        height: 50px;
+    }
+}
+
+@keyframes resize {
+    10%, 90% {
+        transform: rotate(100deg);
+    }
+    
+    50% {
+        transform: rotate(100deg);
+    }
+}
